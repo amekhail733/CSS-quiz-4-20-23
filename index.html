@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4/20/23 Quiz</title>
+    <style>
+        #images{
+            width:200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body style="background-color:grey;">
+    <!-- Beach Picture -->
+    <h3>Beach Pictures</h3>
+    <div style="display:flex; flex-direction:row; flex-wrap:wrap; padding:20px;">
+        <img src="beach.jpg" id="images" style="filter:blur(0);">
+        <img src="beach.jpg" id="images" style="filter:blur(3px);">
+        <img src="beach.jpg" id="images" style="filter:grayscale(100%);">
+        <img src="beach.jpg" id="images" style="filter:brightness(0);">
+        <img src="beach.jpg" id="images" style="filter:brightness(1);">
+        <img src="beach.jpg" id="images" style="filter:brightness(0.5);">
+        <img src="beach.jpg" id="images" style="filter:brightness(35%);">
+        <img src="beach.jpg" id="images" style="filter:contrast(180%);">
+    </div>  
+    <!-- Apply an Image -->
+    <div style="display:flex; flex-direction:column;">
+        <h3>Apply an image</h3>
+        <img src="dog.jpg" id="images" style="filter: grayscale(100%);">
+    </div>
+    <!-- Landscape -->
+    <div>
+        <h3>Landscape Image</h3>
+        <img src="landscape.jpg" id="images" style="filter:opacity(100%);">
+        <img src="landscape.jpg" id="images" style="filter:opacity(0%);">
+        <img src="landscape.jpg" id="images" style="filter:opacity(50%);"> 
+        <img src="landscape.jpg" id="images" style="filter:saturate(500%);"> 
+    </div>
+    <!-- Sunset -->
+    <div>
+        <h3>Sunset Image</h3>
+        <img src="sunset.jpg" id="images" style="filter:grayscale(100%);">
+        <img src="sunset.jpg" id="images" style="filter:sepia(100%);">
+    </div>
+</body>
+</html>
